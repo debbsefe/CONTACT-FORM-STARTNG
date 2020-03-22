@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+           <img src="https://res.cloudinary.com/debbsefe/image/upload/f_auto,c_fill,dpr_auto,e_grayscale/image_fz7n7w.webp" alt="header-image" class="cld-responsive">
+                <h1 class="form-title">CONTACT US</h1>
+                <form action="process.php" method="post">
+                   <input type="text" placeholder="NAME" name="full-name">
+                <div class="beside">
+                    <input type="tel" placeholder="PHONE NUMBER" name="phone">
+                    <select name="gender">
+                        <option>GENDER</option>
+                        <option>MALE</option>
+                        <option>FEMALE</option>
+                        <option>NON-BINARY</option>
+                    </select>
+                </div>
+                    <input type="email" placeholder="EMAIL ADDRESS" name="email">
+                    <textarea class="textarea" name="message" placeholder="TYPE YOUR MESSAGE"></textarea>
+                    <button type="submit" name="submit" value="submit">Submit</button>
+                </form>
+            </div>
+     </div>
+    
+</body>
+</html>
